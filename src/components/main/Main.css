@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+main {
+    display: flex;
+    width: 100%;
+    height: 665px;
+}
+
+header {
+    margin-top: 125px;
+    margin-left: 100px;
+    width: 410px;
+    height: 305px;
+}
+
+.info-name {
+    font-weight: lighter;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.info-desription {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    line-height: 1.2;
+}
+
+.custom-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-Download {
+    outline: none;
+    border: none;
+    background-color: #98C1CF;
+    color: white;
+    font-size: 20px;
+    width: 230px;
+    height: 50px;
+}
+
+.btn-Download:hover {
+    background-color: #11ade1;
+}
+
+.photo {
+    background-color: #98C1CF;
+    width: 810px;
+    height: 665px;
+    margin-left: 200px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 20% 0);
+    position: relative; 
+}
+
+.box {
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    position: absolute; 
+    top: 63%; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.image {
+    width: 100%;
+    height: auto; 
+    transition: transform 0.3s ease;
+}
+
+.box:hover .image {
+    transform: translate(-30px, -30px);
+}
