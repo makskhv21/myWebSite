@@ -2,7 +2,7 @@ body {
     background: linear-gradient(90deg,#285385,#517CAE, #337DD8, #3271E4); 
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 1024px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }

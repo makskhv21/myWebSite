@@ -1,0 +1,17 @@
+footer {
+    background: linear-gradient(120deg,#b69898,#5f7792, #4B7CE6, #2a63a8);
+    height: 160px;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    line-height: 160px;
+    height: 50px;
+}
+
+.footer-site {
+    margin-top: 60px;
+    text-align: center;
+}
