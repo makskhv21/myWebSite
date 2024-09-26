@@ -3,7 +3,7 @@ import myPhoto from "./img/myPhoto.png";
 
 function Main() {
     return(
-        <main>
+        <main className="main-home">
             <header>
             <div className="info">
                 <h1 className="info-name">Hi, my name is Maks. </h1>
