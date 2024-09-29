@@ -1,0 +1,37 @@
+.header-projects {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Висота для центрування по вертикалі */
+}
+
+.container-projects {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 40px;
+    row-gap: 20px;
+}
+
+.project-image {
+    background-color: #ccc; 
+    border-radius: 20px;
+    width: 320px;
+    height: 160px;
+}
+
+.project-name {
+    font-size: 30px;
+    margin: 0;
+}
+
+.project-desc {
+    font-size: 19px;
+    margin-top: 5px;
+}
