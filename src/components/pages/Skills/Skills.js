@@ -1,10 +1,23 @@
-import "./Skills.css"
+import "./Skills.css";
 
-import starImage from './img/Star.png';
-import polygonImage from "./img/Polygon.png"
+import StarItem from "./comp/StartItem";
+import PolygonItem from "./comp/PolygonItem";
+
+const starWords = [
+    "Word 1", "Word 2", "Word 3", 
+    "Word 4", "Word 5", "Word 6", 
+    "Word 7"
+];
+
+const polygonWords = [
+    "Time management", "Communication", 
+    "Adaptability", "Problem-solving", 
+    "Teamwork", "Attention to detail", 
+    "Creativity"
+];
 
 function Skills() {
-    return(
+    return (
         <main className="main-skills">
             <h1 className="header-skills">Skills</h1>
             <div className="skills">
@@ -13,99 +26,24 @@ function Skills() {
             </div>
             <div className="stars-polygon">
                 <div className="one-stars">
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 1</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 2</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 3</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 4</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 5</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 6</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 7</span>
-                    </div>
+                    {starWords.map((word, index) => (
+                        <StarItem key={index} word={word} />
+                    ))}
                 </div>
                 <div className="two-stars">
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 1</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 2</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 3</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 4</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 5</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 6</span>
-                    </div>
-                    <div className="star-item">
-                        <img src={starImage} alt="star" />
-                        <span className="span">Word 7</span>
-                    </div>
+                    {starWords.map((word, index) => (
+                        <StarItem key={index} word={word} />
+                    ))}
                 </div>
-                <div className="polygon" >
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Time management</span>
-                    </div>
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Communication</span>
-                    </div>
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Adaptability</span>
-                    </div>
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Problem-solving</span>
-                    </div>
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Teamwork</span>
-                    </div>
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Attention to detail</span>
-                    </div>
-                    <div className="polygon-item">
-                        <img src={polygonImage} alt="star" />
-                        <span className="span">Creativity</span>
-                    </div>
+                <div className="polygon">
+                    {polygonWords.map((word, index) => (
+                        <PolygonItem key={index} word={word} />
+                    ))}
                 </div>
             </div>
             <a href="https://github.com/makskhv21/makskhv21/blob/main/SKILLS.md" className="GithubSkills">Software engineering skills</a>
         </main>
-    )
+    );
 }
 
 export default Skills;
