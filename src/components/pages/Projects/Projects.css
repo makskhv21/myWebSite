@@ -1,3 +1,4 @@
+
 .header-projects {
     display: flex;
     font-size: 48px;
@@ -10,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .container-projects {
@@ -29,10 +31,12 @@
 
 .project-name {
     font-size: 30px;
+    width: 320px;
     margin: 0;
 }
 
 .project-desc {
     font-size: 19px;
+    width: 320px;
     margin-top: 5px;
 }

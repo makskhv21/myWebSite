@@ -6,6 +6,7 @@
     letter-spacing: 1.5px; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     transition: text-shadow 0.3s ease-in-out; 
+    margin-top: 130px;
 }
 
 .project-container {

@@ -3,7 +3,7 @@
 main {
     margin-top: 100px;
     width: 100%;
-    height: 665px;
+    flex-grow: 1;
 }
 
 .main-home {
