@@ -3,12 +3,13 @@
     font-size: 48px;
     font-weight: bolder;
     justify-content: center;
+    margin-top: 130px;
 }
 
 .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center; /* Висота для центрування по вертикалі */
+    align-items: center;
 }
 
 .container-projects {

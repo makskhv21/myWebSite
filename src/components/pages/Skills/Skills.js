@@ -5,7 +5,7 @@ import polygonImage from "./img/Polygon.png"
 
 function Skills() {
     return(
-        <main className="">
+        <main className="main-skills">
             <h1 className="header-skills">Skills</h1>
             <div className="skills">
                 <h2>Hard</h2>
@@ -75,34 +75,35 @@ function Skills() {
                 <div className="polygon" >
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 1</span>
+                        <span className="span">Time management</span>
                     </div>
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 2</span>
+                        <span className="span">Communication</span>
                     </div>
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 3</span>
+                        <span className="span">Adaptability</span>
                     </div>
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 4</span>
+                        <span className="span">Problem-solving</span>
                     </div>
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 5</span>
+                        <span className="span">Teamwork</span>
                     </div>
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 6</span>
+                        <span className="span">Attention to detail</span>
                     </div>
                     <div className="polygon-item">
                         <img src={polygonImage} alt="star" />
-                        <span className="span">Word 7</span>
+                        <span className="span">Creativity</span>
                     </div>
                 </div>
             </div>
+            <a href="https://github.com/makskhv21/makskhv21/blob/main/SKILLS.md" className="GithubSkills">Software engineering skills</a>
         </main>
     )
 }
