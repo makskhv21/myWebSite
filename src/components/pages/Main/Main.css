@@ -49,7 +49,7 @@ header {
     background-color: #11ade1;
 }
 
-.photo {
+.backgroundDiv {
     background-color: #98C1CF;
     width: 810px;
     height: 665px;
@@ -73,8 +73,33 @@ header {
     width: 100%;
     height: auto; 
     transition: transform 0.3s ease;
+    position: absolute;
+}
+
+.container-name {
+    background-color: #b0b4b5;
+    opacity: 0.85;
+    position: absolute; 
+    bottom: 45px;
+    width: 170px;
+    height: 35px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: transform 0.3s ease; 
+}
+
+.my-name {
+    font-size: 20px;
+    color: #030303;
 }
 
 .box:hover .image {
     transform: translate(-30px, -30px);
+}
+
+.box:hover .container-name {
+    transform: translate(-30px, -30px); 
 }

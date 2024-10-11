@@ -11,9 +11,12 @@ function Main() {
             </div>
             <button className="btn-Download">Download CV</button>
             </header>
-            <div className="photo"></div>
+            <div className="backgroundDiv"></div>
             <div className="box">
                 <img src={myPhoto} alt="MyPhoto" className="image"/>
+                <div className="container-name">
+                    <h6 className="my-name">Maksym Khvyts</h6>
+                </div>
             </div>
         </main>
     )
