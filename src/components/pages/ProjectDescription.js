@@ -1,3 +1,5 @@
+import "./Project.css";
+
 function ProjectDescription({ project }) {
     return (
         <div className="project-container">

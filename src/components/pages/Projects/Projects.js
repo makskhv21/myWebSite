@@ -1,10 +1,10 @@
 import "./Projects.css";
-
 import projectImage from "./img/project.jpg";
+import { Link } from 'react-router-dom';
 
 const projectsData = [
-    { id: 1, title: "Project 1", tech: "React, Node.js" },
-    { id: 2, title: "Project 2", tech: "React, Node.js" },
+    { id: 1, title: "Spotify-clone", tech: "React, React Router DOM, TailwindCSS; Swiper, Axios, React Icons" },
+    { id: 2, title: "Guess-word-gallows", tech: "React, TypeScript, Styled Components" },
     { id: 3, title: "Project 3", tech: "React, Node.js" },
     { id: 4, title: "Project 4", tech: "React, Node.js" },
     { id: 5, title: "Project 5", tech: "React, Node.js" },
@@ -19,9 +19,9 @@ function Projects() {
                 <div className="container-projects">
                     {projectsData.map(project => (
                         <div className="project" key={project.id}>
-                            <a href={`/Projects/${project.id}`}>
+                            <Link to={`/projects/${project.id}`}>
                                 <img src={projectImage} alt={project.title} className="project-image" />
-                            </a>
+                            </Link>
                             <h3 className="project-name">{project.title}</h3>
                             <p className="project-desc">Technology: {project.tech}</p>
                         </div>
