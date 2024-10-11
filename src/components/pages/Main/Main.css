@@ -11,7 +11,7 @@ main {
 }
 
 header {
-    margin-top: 125px;
+    margin-top: 140px;
     margin-left: 99px;
     width: 410px;
     height: 305px;
@@ -19,14 +19,14 @@ header {
 
 .info-name {
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 0;
 }
 
 .info-desription {
     font-size: 32px;
     font-weight: 500;
-    margin-top: 25px;
+    margin-top: 10px;
     padding-bottom: 50px;
     line-height: 1.2;
 }
@@ -35,18 +35,46 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+.button-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+}
+
 .btn-Download {
     outline: none;
     border: none;
-    background-color: #98C1CF;
+    background-color: #53afe8;
     color: white;
     font-size: 20px;
-    width: 230px;
+    width: 200px;
     height: 50px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    cursor: pointer; 
+}
+
+.btn-About {
+    outline: none;
+    border: none;
+    background-color: #98C1CF; 
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer; 
 }
 
 .btn-Download:hover {
-    background-color: #11ade1;
+    background-color: #11ade1; 
+    transform: scale(1.05); 
+}
+
+.btn-About:hover {
+    background-color: #71B3B8; 
+    transform: scale(1.05); 
 }
 
 .backgroundDiv {

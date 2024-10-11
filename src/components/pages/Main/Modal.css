@@ -1,0 +1,79 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(45, 55, 72, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modal-content {
+    background: #f4faff; 
+    color: #2e3a59; 
+    padding: 20px 30px; 
+    border-radius: 14px;
+    width: 650px;
+    position: relative;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+    font-family: 'Nunito', sans-serif; 
+    line-height: 1.6; 
+}
+
+.modal-content h2 {
+    color: #005792; 
+    font-size: 24px;
+    font-weight: 700; 
+    text-align: center;
+    border-bottom: 1px solid #005792; 
+    padding-bottom: 8px; 
+    margin-bottom: 18px; 
+}
+
+.modal-content p {
+    line-height: 1.6; 
+    margin-bottom: 12px; 
+    color: #37474f; 
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif; 
+    text-align: justify;
+}
+
+.modal-content a {
+    color: #005792; 
+    text-decoration: none; 
+    font-weight: 600; 
+    transition: color 0.3s ease;
+}
+
+.modal-content a:hover {
+    color: #002e4d; 
+    text-decoration: underline; 
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    padding: 5px;
+}
+
+.icon-close {
+    width: 20px;
+    height: 20px;
+    filter: invert(35%) sepia(62%) saturate(3482%) hue-rotate(180deg) brightness(90%) contrast(93%);
+    transition: filter 0.3s ease;
+}
+
+.modal-close:hover .icon-close {
+    filter: invert(16%) sepia(96%) saturate(2530%) hue-rotate(180deg) brightness(95%) contrast(112%);
+    transform: scale(1.1);
+    opacity: 0.8; 
+}
