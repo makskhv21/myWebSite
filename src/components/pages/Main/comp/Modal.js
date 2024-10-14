@@ -1,6 +1,6 @@
 import './Modal.css'; 
 
-import closeImage from "./img/icon-close.png"
+import closeImage from "../img/icon-close.png"
 
 const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null; 

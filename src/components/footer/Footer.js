@@ -8,8 +8,8 @@ import phonePhoto from "./img/phone.png";
 
 function Footer() {
     return(
-            <footer>
-                <div className="footer-img">
+        <footer>
+            <div className="footer-img">
                 <a href="mailto:m.khvyts.ser@gmail.com">
                     <img src={emailPhoto} alt="email-photo"/>
                 </a>
@@ -25,10 +25,10 @@ function Footer() {
                 <a href="https://maps.app.goo.gl/obSCA8fJpHGQYnxL9">
                     <img src={locationPhoto} alt="location-photo"/>
                 </a>
-                </div>
-                <p className="footer-site">© 2024 mh-front-dev.com</p>
-            </footer>
-        )
-}
+            </div>
+            <p className="footer-site">© 2024 mh-front-dev.com</p>
+        </footer>
+    )
+};
 
 export default Footer;

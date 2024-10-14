@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom"; // імпорт useLocation для React Router
+import { useLocation } from "react-router-dom"; 
 import "./Navbar.css";
 
 function Navbar() {
     const [opacity, setOpacity] = useState(1);
     const [isHovered, setIsHovered] = useState(false);
-    const location = useLocation(); // Отримуємо поточну URL-адресу
+    const location = useLocation(); 
 
     useEffect(() => {
         const handleScroll = () => {
