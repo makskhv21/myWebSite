@@ -1,15 +1,7 @@
 import "./Projects.css";
 import projectImage from "./img/project.jpg";
 import { Link } from 'react-router-dom';
-
-const projectsData = [
-    { id: 1, title: "Spotify-clone", tech: "React, React Router DOM, TailwindCSS; Swiper, Axios, React Icons" },
-    { id: 2, title: "Guess-word-gallows", tech: "React, TypeScript, Styled Components" },
-    { id: 3, title: "Project 3", tech: "React, Node.js" },
-    { id: 4, title: "Project 4", tech: "React, Node.js" },
-    { id: 5, title: "Project 5", tech: "React, Node.js" },
-    { id: 6, title: "Project 6", tech: "React, Node.js" },
-];
+import projectsData from "../projectsData"
 
 function Projects() {
     return (

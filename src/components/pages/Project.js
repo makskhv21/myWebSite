@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import projectsData from './projectsData'; // Assuming you store the project data in a separate file
-import ProjectDescription from './ProjectDescription';
+import projectsData from './projectsData';
+import ProjectDescription from '../detailProjects/ProjectDescription';
 
 function Project() {
     const { id } = useParams();

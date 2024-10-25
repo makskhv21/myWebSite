@@ -2,8 +2,8 @@ import "./Main.css";
 import myPhoto from "./img/myPhoto.png";
 import { useState } from "react";
 
-import Modal from "./comp/Modal";
-import AboutMe from "./comp/AboutMe"
+import Modal from "../../Modal/Modal";
+import AboutMe from "../../Modal/AboutMe"
 
 function Main() {
     const [isModalOpen, setIsModalOpen] = useState(false);

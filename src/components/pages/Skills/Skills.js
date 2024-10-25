@@ -1,7 +1,7 @@
 import "./Skills.css";
 
-import StarItem from "./comp/StartItem";
-import PolygonItem from "./comp/PolygonItem";
+import StarItem from "../../skill/StartItem";
+import PolygonItem from "../../skill/PolygonItem";
 
 const starWords = [
     "Word 1", "Word 2", "Word 3", 
