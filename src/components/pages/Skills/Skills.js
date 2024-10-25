@@ -41,7 +41,7 @@ function Skills() {
                     ))}
                 </div>
             </div>
-            <a href="https://github.com/makskhv21/makskhv21/blob/main/SKILLS.md" className="GithubSkills">Software engineering skills</a>
+            <a target="_blank" href="https://github.com/makskhv21/makskhv21/blob/main/SKILLS.md" className="GithubSkills">Software engineering skills</a>
         </main>
     );
 }
