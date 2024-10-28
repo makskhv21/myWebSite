@@ -5,6 +5,7 @@ import "./Navbar.css";
 function Navbar() {
     const [opacity, setOpacity] = useState(1);
     const [isHovered, setIsHovered] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const location = useLocation(); 
 
     useEffect(() => {
@@ -25,9 +26,10 @@ function Navbar() {
 
     const handleMouseEnter = () => setIsHovered(true);
     const handleMouseLeave = () => setIsHovered(false);
+    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
-        <div>
+        <div className="navbar">
             <nav 
                 style={{ opacity: isHovered ? 1 : opacity }} 
                 onMouseEnter={handleMouseEnter} 
@@ -41,11 +43,17 @@ function Navbar() {
                     </div>
                 </a>
 
-                <ul>
-                    <a href="/Home" className={location.pathname === "/Home" ? "active" : ""}><li>Home</li></a>
-                    <a href="/Projects" className={location.pathname === "/Projects" ? "active" : ""}><li>Projects</li></a>
-                    <a href="/Skills" className={location.pathname === "/Skills" ? "active" : ""}><li>Skills</li></a>
-                    <a href="/Contacts" className={location.pathname === "/Contacts" ? "active" : ""}><li>Contacts</li></a>
+                <div className="menu-toggle" onClick={toggleMenu}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
+
+                <ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+                    <li><a href="/Home" className={location.pathname === "/Home" ? "active" : ""}>Home</a></li>
+                    <li><a href="/Projects" className={location.pathname === "/Projects" ? "active" : ""}>Projects</a></li>
+                    <li><a href="/Skills" className={location.pathname === "/Skills" ? "active" : ""}>Skills</a></li>
+                    <li><a href="/Contacts" className={location.pathname === "/Contacts" ? "active" : ""}>Contacts</a></li>
                 </ul>
             </nav>
         </div>
