@@ -68,11 +68,11 @@ function Contacts() {
             </form>
             <div className="contacts-tg-wsapp">
                 <div className="tg">
-                    <img src={telegramImage} alt="tg" />
+                    <img src={telegramImage} alt="tg" className="tgImg" />
                     <span>MaksKhvyts</span>
                 </div>
                 <div className="whatsapp">
-                    <img src={whatsappImage} alt="whatsapp" />
+                    <img src={whatsappImage} alt="whatsapp" className="whatsappImg" />
                     <span>MaksKhvyts</span>
                 </div>
             </div>
