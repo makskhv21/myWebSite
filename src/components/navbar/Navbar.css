@@ -94,8 +94,8 @@ ul a.active::after {
 /* Responsive styles */
 @media (max-width: 1200px) {
     nav {
-        gap: 30%;
-        width: 98.45%;
+        gap: 28%;
+        width: 98.55%;
     }
 }
 
@@ -105,8 +105,27 @@ ul a.active::after {
     }
 
     nav {
-        gap: 10%; 
+        gap: 26%; 
         width: 98.4%;
+    }
+
+    ul {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 896px) {
+    .logo {
+        margin-left: 40px;
+    }
+
+    nav {
+        gap: 14%; 
+        width: 98.4%;
+    }
+
+    ul {
+        font-size: 22px;
     }
 }
 
@@ -154,6 +173,27 @@ ul a.active::after {
     nav {
         gap: 20px;
         width: 96.7%;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .menu-toggle {
+        margin-right: 40px; 
+    }
+}
+
+@media (max-width: 420px) {
+    nav {
+        gap: 20px;
+        width: 94.1%;
+    }
+
+    nav ul {
+        font-size: 16px;
+        height: 260px;
+        width: 89%;
     }
 
     .logo {

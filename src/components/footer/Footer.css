@@ -16,3 +16,15 @@ footer {
     margin-top: 55px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .photo {
+        height: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    .photo {
+        height: 35px;
+    }
+}

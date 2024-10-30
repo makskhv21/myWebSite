@@ -131,3 +131,440 @@ header {
 .box:hover .container-name {
     transform: translate(-30px, -30px); 
 }
+
+
+@media(max-width: 1200px) {
+    .main-home {
+
+    }
+
+    header {
+        
+    }
+
+    .info {
+        
+    }
+
+    .info-name {
+        font-size: 40px; 
+    }
+
+    .info-desription {
+        font-size: 30px; 
+    }
+
+    .button-container {
+        width: 80%;
+    }
+
+    .btn-Download{
+        font-size: 18px;
+    }
+
+    .btn-About {
+        font-size: 18px;
+    }
+
+    .backgroundDiv {
+
+    }
+
+    .box {
+        position: absolute;
+        left: 800px;
+        top: 400px;
+        height: auto;
+        margin-top: 30px;
+        width: 26.5%;
+    }
+
+    .image {    
+        width: 320px;
+        height: 100%;
+    }
+
+    .container-name {
+        position: relative;
+        margin-top: 270px;
+    }
+
+    .my-name {
+
+    }
+
+}
+
+
+
+
+@media(max-width: 1024px) {
+    .main-home {
+        height: 90vh;
+    }
+
+    header {
+        
+    }
+
+    .info {
+        
+    }
+
+    .info-name {
+        font-size: 40px; 
+    }
+
+    .info-desription {
+        font-size: 30px; 
+    }
+
+    .button-container {
+        width: 80%;
+    }
+
+    .btn-Download{
+        font-size: 18px;
+    }
+
+    .btn-About {
+        font-size: 18px;
+    }
+
+    .backgroundDiv {
+        display: none;
+    }
+
+    .box {
+        position: absolute;
+        left: 680px;
+        top: 400px;
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    .image {    
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-name {
+        position: relative;
+        margin-top: 220px;
+    }
+
+    .my-name {
+        font-size: 18px;
+    }
+
+}
+
+
+
+@media(max-width: 768px) {
+   .main-home {
+        height: 120vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .info-name {
+        font-size: 40px; 
+    }
+
+    .info-desription {
+        font-size: 30px; 
+    }
+
+    .button-container {
+        width: 80%;
+    }
+
+    .btn-Download{
+        font-size: 18px;
+    }
+
+    .btn-About {
+        font-size: 18px;
+    }
+
+    .backgroundDiv {
+        display: none;
+    }
+
+    .box {
+        position: absolute;
+        left: 370px;
+        top: 240px;
+        height: 260px;
+        margin-top: 30px;
+    }
+
+    .image {    
+        width: 120%;
+        height: 100%;
+    }
+
+    .container-name {
+        position: relative;
+        margin-top: 220px;
+    }
+
+    .my-name {
+        font-size: 18px;
+    }
+
+
+    .box:hover .image {
+        transform: none;
+    }
+
+    .box:hover .container-name {
+        transform: none;
+    }  
+}
+
+
+
+
+@media(max-width: 620px) {
+    .main-home {
+        height: 110vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 90px;
+    }
+
+    .info {
+        
+    }
+
+    .info-name {
+        font-size: 32px; 
+    }
+
+    .info-desription {
+        font-size: 25px; 
+    }
+
+    .button-container {
+        width: 75%;
+    }
+
+    .btn-Download{
+        font-size: 17px;
+    }
+
+    .btn-About {
+        font-size: 17px;
+    }
+
+    .backgroundDiv {
+        display: none;
+    }
+
+    .box {
+        
+        position: absolute;
+        left: 250px;
+        top: 240px;
+        height: 260px;
+        margin-top: 30px;
+    }
+
+    .image {    
+        width: 145%;
+        height: 100%;
+    }
+
+    .container-name {
+        position: relative;
+        margin-top: 220px;
+    }
+
+    .my-name {
+        font-size: 18px;
+    }
+
+
+    .box:hover .image {
+        transform: none;
+    }
+
+    .box:hover .container-name {
+        transform: none;
+    } 
+}
+
+
+@media(max-width: 480px) {
+    .main-home {
+        height: 100vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 45px;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    .info-name {
+        font-size: 27px; 
+    }
+
+    .info-desription {
+        font-size: 20px; 
+    }
+
+    .button-container {
+        width: 60%;
+    }
+
+    .btn-Download{
+        font-size: 15px;
+    }
+
+    .btn-About {
+        font-size: 15px;
+    }
+
+    .backgroundDiv {
+        display: none;
+    }
+
+    .box {
+        
+        position: absolute;
+        left: 180px;
+        top: 240px;
+        height: 260px;
+        margin-top: 30px;
+    }
+
+    .image {    
+        width: 195%;
+        height: 100%;
+    }
+
+    .container-name {
+        position: relative;
+        margin-top: 220px;
+    }
+
+    .my-name {
+        font-size: 18px;
+    }
+
+    .box:hover .image {
+        transform: none;
+    }
+
+    .box:hover .container-name {
+        transform: none;
+    } 
+}
+
+
+
+
+@media(max-width: 420px) {
+    .main-home {
+        height: 100vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+
+    .info {
+        width: 70%;
+    }
+
+    .info-name {
+        font-size: 27px; 
+    }
+
+    .info-desription {
+        font-size: 20px; 
+    }
+
+    .button-container {
+        width: 60%;
+    }
+
+    .btn-Download{
+        font-size: 15px;
+    }
+
+    .btn-About {
+        font-size: 15px;
+    }
+
+    .backgroundDiv {
+        display: none;
+    }
+
+    .box {
+        
+        position: absolute;
+        left: 150px;
+        top: 240px;
+        height: 210px;
+        margin-top: 30px;
+    }
+
+    .image {    
+        width: 195%;
+        height: 100%;
+    }
+
+    .container-name {
+        position: relative;
+        margin-top: 200px;
+    }
+
+    .my-name {
+        font-size: 17px;
+    }
+
+    .box:hover .image {
+        transform: none;
+    }
+
+    .box:hover .container-name {
+        transform: none;
+    } 
+}
