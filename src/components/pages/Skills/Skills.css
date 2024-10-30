@@ -127,3 +127,39 @@
     box-shadow: 0 8px 25px rgba(0, 91, 191, 0.6);
 }
 
+@media(max-width: 1024px) {
+    .stars-polygon {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media(max-width: 896px) {
+    .stars-polygon {
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .stars-polygon {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 480px) {
+    .stars-polygon {
+        margin-right: 20px;
+    }
+    .stars {
+        display: flex;
+        flex-direction: column ;
+    }
+    
+    .one-stars, .two-stars {
+        display: flex !important; 
+        flex-direction: column !important;
+        gap: 10px; 
+    }
+}
