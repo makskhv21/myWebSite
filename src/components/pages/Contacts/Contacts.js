@@ -1,17 +1,14 @@
-// Contacts.js
 import "./Contacts.css";
 import { useState } from "react";
 import telegramImage from "./img/telegram.png";
 import whatsappImage from "./img/whatsapp.png";
+import ContactForm from "./ContactForm";
+import ContactMethod from "./ContactMethod";
 
 function Contacts() {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
     const [status, setStatus] = useState("");
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    const handleFormSubmit = async ({ name, email, message }) => {
         setStatus("Sending...");
 
         try {
@@ -25,9 +22,6 @@ function Contacts() {
 
             if (response.ok) {
                 setStatus("Email sent successfully!");
-                setName("");
-                setEmail("");
-                setMessage("");
             } else {
                 throw new Error("Failed to send email");
             }
@@ -42,39 +36,10 @@ function Contacts() {
                 <h1>Contacts</h1>
                 <h2>Write to me!</h2>
             </div>
-            <form onSubmit={handleSubmit} className="email-form">
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                />
-                <input
-                    type="email"
-                    placeholder="Your Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
-                <textarea
-                    placeholder="Your Message"
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    required
-                ></textarea>
-                <button type="submit">Send Email</button>
-                {status && <p>{status}</p>}
-            </form>
+            <ContactForm onSubmit={handleFormSubmit} status={status} />
             <div className="contacts-tg-wsapp">
-                <div className="tg">
-                    <img src={telegramImage} alt="tg" className="tgImg" />
-                    <span>MaksKhvyts</span>
-                </div>
-                <div className="whatsapp">
-                    <img src={whatsappImage} alt="whatsapp" className="whatsappImg" />
-                    <span>MaksKhvyts</span>
-                </div>
+                <ContactMethod image={telegramImage} altText="Telegram" username="MaksKhvyts" />
+                <ContactMethod image={whatsappImage} altText="WhatsApp" username="MaksKhvyts" />
             </div>
         </main>
     );
