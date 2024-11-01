@@ -91,7 +91,6 @@ ul a.active::after {
     transition: 0.3s;
 }
 
-/* Responsive styles */
 @media (max-width: 1200px) {
     nav {
         gap: 28%;
@@ -115,10 +114,6 @@ ul a.active::after {
 }
 
 @media (max-width: 896px) {
-    .logo {
-        margin-left: 40px;
-    }
-
     nav {
         gap: 14%; 
         width: 98.4%;
@@ -130,10 +125,6 @@ ul a.active::after {
 }
 
 @media (max-width: 768px) {
-    .logo {
-        margin-left: 40px;
-    }
-
     nav {
         justify-content: space-between; 
         width: 97.5%;
@@ -174,10 +165,6 @@ ul a.active::after {
     nav {
         gap: 20px;
         width: 96.7%;
-    }
-
-    .logo {
-        margin-left: 40px;
     }
 
     .menu-toggle {

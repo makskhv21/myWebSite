@@ -42,10 +42,6 @@
 }
 
 @media (max-width: 1200px) {
-    .header-projects {
-
-    }
-
     .wrapper {
         width: 80%;
         margin-right: 520px;
@@ -70,19 +66,9 @@
     .project-name {
         font-size: 22px;
     }
-
-    .project-desc {
-
-    }
 }
 
-
-
 @media (max-width: 1024px) {
-    .header-projects {
-
-    }
-
     .wrapper {
         width: 60%;     
     }
@@ -95,28 +81,12 @@
         margin-left: 300px;
     }
 
-    .project {
-        width: 25%;
-    }
-
     .project-image {
         width: 140%;
-    }
-
-    .project-name {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        
     }
 }
 
 @media (max-width: 896px) {
-    .header-projects {
-
-    }
-
     .wrapper {
         width: 40%;
         margin-left: 130px;
@@ -130,28 +100,15 @@
     }
 
     .project {
-        
         margin-left: 20px;
     }
 
     .project-image {
         width: 300%;
     }
-
-    .project-name {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        
-    }
 }
 
 @media (max-width: 768px) {
-    .header-projects {
-
-    }
-
     .wrapper {
         width: 20%;
     }
@@ -169,30 +126,9 @@
         width: 35%;
         margin-left: 20px;
     }
-
-    .project-image {
-        width: 300%;
-    }
-
-    .project-name {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        
-    }
 }
 
-
 @media (max-width: 620px) {
-    .header-projects {
-
-    }
-
-    .wrapper {
-        width: 20%;
-    }
-
     .container-projects {
         display: flex;
         flex-direction: column;
@@ -204,32 +140,11 @@
 
     .project {
         width: 40%;
-
-    }
-
-    .project-image {
-        width: 300%;
-    }
-
-    .project-name {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        
     }
 }
 
 @media (max-width: 480px) {
-    .header-projects {
-
-    }
-
-    .wrapper {
-        width: 20%;
-    }
-
-    .container-projects {
+   .container-projects {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -237,31 +152,9 @@
         gap: 10px; 
         margin-right: 370px;       
     }
-
-    .project {
-        width: 40%;
-
-    }
-
-    .project-image {
-        width: 300%;
-    }
-
-    .project-name {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        
-    }
 }
 
-
 @media (max-width: 420px) {
-    .header-projects {
-
-    }
-
     .wrapper {
         width: 25%;
     }
@@ -275,20 +168,7 @@
         margin-right: 500px;       
     }
 
-    .project {
-        width: 40%;
-
-    }
-
     .project-image {
         width: 330%;
-    }
-
-    .project-name {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        
     }
 }

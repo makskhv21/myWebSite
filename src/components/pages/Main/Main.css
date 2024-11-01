@@ -134,18 +134,6 @@ header {
 
 
 @media(max-width: 1200px) {
-    .main-home {
-
-    }
-
-    header {
-        
-    }
-
-    .info {
-        
-    }
-
     .info-name {
         font-size: 40px; 
     }
@@ -158,16 +146,9 @@ header {
         width: 80%;
     }
 
-    .btn-Download{
-        font-size: 18px;
-    }
-
+    .btn-Download,
     .btn-About {
         font-size: 18px;
-    }
-
-    .backgroundDiv {
-
     }
 
     .box {
@@ -188,47 +169,11 @@ header {
         position: relative;
         margin-top: 270px;
     }
-
-    .my-name {
-
-    }
-
 }
-
-
-
 
 @media(max-width: 1024px) {
     .main-home {
         height: 90vh;
-    }
-
-    header {
-        
-    }
-
-    .info {
-        
-    }
-
-    .info-name {
-        font-size: 40px; 
-    }
-
-    .info-desription {
-        font-size: 30px; 
-    }
-
-    .button-container {
-        width: 80%;
-    }
-
-    .btn-Download{
-        font-size: 18px;
-    }
-
-    .btn-About {
-        font-size: 18px;
     }
 
     .backgroundDiv {
@@ -256,10 +201,7 @@ header {
     .my-name {
         font-size: 18px;
     }
-
 }
-
-
 
 @media(max-width: 768px) {
    .main-home {
@@ -283,30 +225,6 @@ header {
         text-align: center;
     }
 
-    .info-name {
-        font-size: 40px; 
-    }
-
-    .info-desription {
-        font-size: 30px; 
-    }
-
-    .button-container {
-        width: 80%;
-    }
-
-    .btn-Download{
-        font-size: 18px;
-    }
-
-    .btn-About {
-        font-size: 18px;
-    }
-
-    .backgroundDiv {
-        display: none;
-    }
-
     .box {
         position: absolute;
         left: 370px;
@@ -320,27 +238,11 @@ header {
         height: 100%;
     }
 
-    .container-name {
-        position: relative;
-        margin-top: 220px;
-    }
-
-    .my-name {
-        font-size: 18px;
-    }
-
-
-    .box:hover .image {
-        transform: none;
-    }
-
+    .box:hover .image,
     .box:hover .container-name {
         transform: none;
     }  
 }
-
-
-
 
 @media(max-width: 620px) {
     .main-home {
@@ -356,10 +258,6 @@ header {
         margin-left: 90px;
     }
 
-    .info {
-        
-    }
-
     .info-name {
         font-size: 32px; 
     }
@@ -372,20 +270,12 @@ header {
         width: 75%;
     }
 
-    .btn-Download{
-        font-size: 17px;
-    }
-
+    .btn-Download,
     .btn-About {
         font-size: 17px;
     }
 
-    .backgroundDiv {
-        display: none;
-    }
-
     .box {
-        
         position: absolute;
         left: 250px;
         top: 240px;
@@ -397,24 +287,6 @@ header {
         width: 145%;
         height: 100%;
     }
-
-    .container-name {
-        position: relative;
-        margin-top: 220px;
-    }
-
-    .my-name {
-        font-size: 18px;
-    }
-
-
-    .box:hover .image {
-        transform: none;
-    }
-
-    .box:hover .container-name {
-        transform: none;
-    } 
 }
 
 
@@ -448,20 +320,12 @@ header {
         width: 60%;
     }
 
-    .btn-Download{
-        font-size: 15px;
-    }
-
+    .btn-Download,
     .btn-About {
         font-size: 15px;
     }
 
-    .backgroundDiv {
-        display: none;
-    }
-
-    .box {
-        
+    .box {   
         position: absolute;
         left: 180px;
         top: 240px;
@@ -472,34 +336,10 @@ header {
     .image {    
         width: 195%;
         height: 100%;
-    }
-
-    .container-name {
-        position: relative;
-        margin-top: 220px;
-    }
-
-    .my-name {
-        font-size: 18px;
-    }
-
-    .box:hover .image {
-        transform: none;
-    }
-
-    .box:hover .container-name {
-        transform: none;
     } 
 }
 
-
-
-
 @media(max-width: 420px) {
-    .main-home {
-        height: 100vh;
-    }
-
     header {
         display: flex;
         flex-direction: column;
@@ -513,10 +353,6 @@ header {
         width: 70%;
     }
 
-    .info-name {
-        font-size: 27px; 
-    }
-
     .info-desription {
         font-size: 20px; 
     }
@@ -525,30 +361,17 @@ header {
         width: 60%;
     }
 
-    .btn-Download{
-        font-size: 15px;
-    }
-
+    .btn-Download,
     .btn-About {
         font-size: 15px;
     }
 
-    .backgroundDiv {
-        display: none;
-    }
-
-    .box {
-        
+    .box {  
         position: absolute;
         left: 150px;
         top: 240px;
         height: 210px;
         margin-top: 30px;
-    }
-
-    .image {    
-        width: 195%;
-        height: 100%;
     }
 
     .container-name {
@@ -558,13 +381,5 @@ header {
 
     .my-name {
         font-size: 17px;
-    }
-
-    .box:hover .image {
-        transform: none;
-    }
-
-    .box:hover .container-name {
-        transform: none;
     } 
 }

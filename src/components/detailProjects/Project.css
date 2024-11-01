@@ -67,29 +67,9 @@
 @media(max-width: 896px) {
     .project-container {
         display: flex;
-        gap: 20px;
-        
+        gap: 20px;  
     }
-    .img-project {
-
-    }
-    .content {
-
-    }
-
-    .briefly {
-        
-    }
-    .description {
-
-    }
-    .use-tech {
-
-    }
-
-
 }
-
 
 @media(max-width: 768px) {
     .project-container {
@@ -105,49 +85,16 @@
         top: 440px;
         text-align: center;
     }
-
-    .briefly {
-        
-    }
-    .description {
-
-    }
-    .use-tech {
-
-    }
-
-
 }
 
 @media(max-width: 620px) {
     .header-name {
         text-align: center;
     }
-
-    .project-container {
-        height: 110vh;
-    }
     .img-project {
         position: absolute;
         width: 450px;
     }
-    .content {
-        position: relative;
-        top: 440px;
-        text-align: center;
-    }
-
-    .briefly {
-        
-    }
-    .description {
-
-    }
-    .use-tech {
-
-    }
-
-
 }
 
 @media(max-width: 480px) {
@@ -158,21 +105,4 @@
         position: absolute;
         width: 350px;
     }
-    .content {
-        position: relative;
-        top: 440px;
-        text-align: center;
-    }
-
-    .briefly {
-        
-    }
-    .description {
-
-    }
-    .use-tech {
-
-    }
-
-
 }
