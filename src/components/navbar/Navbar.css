@@ -125,7 +125,7 @@ ul a.active::after {
     }
 
     ul {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
@@ -143,29 +143,30 @@ ul a.active::after {
         display: none;
         position: absolute; 
         top: 80px; 
-        height: 300px;
-        padding-bottom: 20px;
         left: 0;
-        background-color: #0E466F; 
-        flex-direction: column; 
-        opacity: 1;
-        width: 93.5%;
-        transition: height 0.3s ease;
+        width: 100%;
+        background-color: #0E466F;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+        height: auto;
+        transition: transform 0.3s ease;
         z-index: 999; 
     }
 
     ul.open {
-        display: flex; 
+        display: flex;
     }
 
     .menu-toggle {
         margin-right: 40px;
-        display: flex; 
+        display: flex;
     }
 
     ul li {
-        text-align: center; 
-        padding: 5px; 
+        text-align: center;
+        padding: 10px 0;
     }
 }
 
@@ -180,27 +181,32 @@ ul a.active::after {
     }
 
     .menu-toggle {
-        margin-right: 40px; 
+        margin-right: 40px;
+    }
+
+    ul {
+        font-size: 18px;
+        gap: 18px;
     }
 }
 
 @media (max-width: 420px) {
     nav {
-        gap: 20px;
-        width: 94.1%;
+        gap: 10px;
+        width: 95.1%;
     }
 
     nav ul {
         font-size: 16px;
-        height: 260px;
-        width: 89%;
+        gap: 16px;
+        width: 100%;
     }
 
     .logo {
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .menu-toggle {
-        margin-right: 40px; 
+        margin-right: 20px;
     }
 }
