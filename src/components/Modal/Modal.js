@@ -1,8 +1,9 @@
 import './Modal.css'; 
 
+import AboutMe from "../Modal/AboutMe"
 import closeImage from "./img/icon-close.png"
 
-const Modal = ({ isOpen, onClose, children }) => {
+const Modal = ({ isOpen, onClose }) => {
   if (!isOpen) return null; 
 
   return (
@@ -11,7 +12,7 @@ const Modal = ({ isOpen, onClose, children }) => {
         <button className="modal-close" onClick={onClose}>
             <img className='icon-close' src={closeImage} alt="close"/>
         </button>
-        {children}
+        <AboutMe />
       </div>
     </div>
   );

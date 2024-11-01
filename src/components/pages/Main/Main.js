@@ -3,7 +3,7 @@ import myPhoto from "./img/myPhoto.png";
 import { useState } from "react";
 
 import Modal from "../../Modal/Modal";
-import AboutMe from "../../Modal/AboutMe"
+
 
 function Main() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,9 +26,7 @@ function Main() {
                 <div className="button-container">
                     <button className="btn-Download">Download CV</button>
                     <button onClick={openModal} className="btn-About">About Me</button>
-                    <Modal isOpen={isModalOpen} onClose={closeModal}>
-                        <AboutMe />
-                    </Modal>
+                    <Modal isOpen={isModalOpen} onClose={closeModal} />
                 </div>
             </header>
             <div className="backgroundDiv"></div>
