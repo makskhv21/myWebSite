@@ -38,8 +38,18 @@ function Contacts() {
             </div>
             <ContactForm onSubmit={handleFormSubmit} status={status} />
             <div className="contacts-tg-wsapp">
-                <ContactMethod image={telegramImage} altText="Telegram" username="MaksKhvyts" />
-                <ContactMethod image={whatsappImage} altText="WhatsApp" username="MaksKhvyts" />
+                <ContactMethod 
+                    image={telegramImage} 
+                    altText="Telegram" 
+                    username="MaksKhvyts" 
+                    link="https://t.me/MaksKhvyts"
+                />
+                <ContactMethod 
+                    image={whatsappImage} 
+                    altText="WhatsApp" 
+                    username="MaksKhvyts" 
+                    link="https://wa.me/MaksKhvyts" 
+                />
             </div>
         </main>
     );

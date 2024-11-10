@@ -91,6 +91,23 @@
     font-size: 25px;
 }
 
+.contact-method {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 23px;
+    background-color: #193c94;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.contact-method:hover {
+    background-color: #354d88;
+}
+
 @media (max-width: 768px) {
     .email-form {
         width: 80%;
