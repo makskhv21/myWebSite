@@ -1,27 +1,28 @@
 const AboutMe = () => {
     return(
         <>
-            <h2>Про мене</h2>
+            <h2>About Me</h2>
             <p>
-                Привіт! Мене звати Максим Хвиць, і я молодший фронтенд-розробник, студент Київського політехнічного 
-                інституту імені Ігоря Сікорського. Хоча я ще не маю комерційного досвіду, я пристрасно налаштований 
-                на розвиток у сфері веб-розробки та завжди прагну вдосконалювати свої вміння.
+                Hi! My name is Maksym Khvyts, and I am a junior front-end developer, a student 
+                at the Igor Sikorsky Kyiv Polytechnic Institute. Although I have no commercial 
+                experience yet, I am passionate about growing in the web development field and 
+                am always looking to improve my skills.
             </p>
             <p>
-                Маю навички у створенні сучасних та привабливих веб-інтерфейсів. Швидко засвоюю нову інформацію, 
-                люблю вчитися та відкритий до нових викликів. Вважаю командну роботу важливою складовою успіху та 
-                завжди готовий вносити свій внесок у спільні досягнення.
+                I have skills in creating modern and visually appealing web interfaces. I quickly 
+                absorb new information, enjoy learning, and am open to new challenges. I believe 
+                that teamwork is a key component of success and am always ready to contribute to 
+                collective achievements.
             </p>
             <p>
-                Моя мета — стати частиною професійної команди, де я зможу не лише розвиватися як спеціаліст, а й 
-                створювати якісні цифрові продукти, що відповідають потребам користувачів. Я впевнений, що мої знання, 
-                бажання вчитися та ентузіазм будуть корисними для вашої компанії.
+                My goal is to join a professional team where I can contribute to creating high-quality digital products that solve real problems. 
+                I’m confident that my enthusiasm and dedication to learning will be valuable assets to your company.
             </p>
 
-            <h2>Зв'яжіться зі мною</h2>
+            <h2>Contact Me</h2>
             <p>
-                Готовий приєднатися до вашої команди та внести свій вклад у успішні проєкти. 
-                Напишіть мені, і разом ми створимо щось особливе!
+                If you’re looking for a motivated developer who is eager to learn and grow with your team, feel free to reach out! 
+                Together, we can create something amazing.
             </p>
         </>
     )
