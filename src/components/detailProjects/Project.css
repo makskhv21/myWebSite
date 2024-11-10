@@ -53,11 +53,12 @@
 }
 
 .reference {
-    color: #010101; 
+    color: #fc674d;
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent; 
     transition: border-color 0.3s ease;
+    font-size: 22px;
 }
 
 .reference:hover {

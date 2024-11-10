@@ -3,7 +3,10 @@ import "./Project.css"
 function ProjectDescription({ project }) {
     return (
         <div className="project-container">
-            <img className="img-project" src={project.image} alt={project.title} />
+            <img
+                onClick={() => window.open(project.link, "_blank")} 
+                className="img-project" src={project.image} alt={project.title} 
+            />
             <div className="content">
                 <h3 className="briefly">{project.brief}</h3>
                 <p className="description">{project.description}</p>
