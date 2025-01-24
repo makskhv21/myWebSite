@@ -24,7 +24,7 @@ function Main() {
                     <p className="info-desription custom-font">I am a frontend developer passionate about creating intuitive and efficient interfaces.</p>
                 </div>
                 <div className="button-container">
-                    <button className="btn-Download"><a src='#'></a>Download CV</button>
+                    <button className="btn-Download"><a href='#'></a>Download CV</button>
                     <button onClick={openModal} className="btn-About">About Me</button>
                     <Modal isOpen={isModalOpen} onClose={closeModal} />
                 </div>
