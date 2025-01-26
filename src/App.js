@@ -14,7 +14,7 @@ import Project from "./components/pages/Project";
 function App() {
   return (
     <div className="App">
-      <Router basename="/myWebSite"> 
+      <Router basename="/myWebSite">
         <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />

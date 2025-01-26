@@ -6,7 +6,7 @@ function ProjectDescription({ project }) {
             <img
                 onClick={() => window.open(project.link, "_blank")} 
                 className="img-project" 
-                src={project.image} 
+                src={project.imageProject} 
                 alt={project.title} 
             />
             <div className="content">

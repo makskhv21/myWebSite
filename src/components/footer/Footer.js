@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <SocialIcons />
-            <p className="footer-site">© 2024 mh-front-dev.com</p>
+            <p className="footer-site">© 2025 mh-front-dev.com</p>
         </footer>
     );
 }
