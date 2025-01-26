@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/myWebSite/static/css/main.8166d5c1.css",
-    "main.js": "/myWebSite/static/js/main.78d1f463.js",
-    "static/media/image1.png": "/myWebSite/static/media/image1.5aff33ad3196b584250d.png",
+    "main.css": "/myWebSite/static/css/main.3cf65de1.css",
+    "main.js": "/myWebSite/static/js/main.61ad2910.js",
+    "static/media/image5.jpg": "/myWebSite/static/media/image5.84e337769b6745c2f316.jpg",
+    "static/media/image8.jpg": "/myWebSite/static/media/image8.153c6ff4ba03549e63a1.jpg",
+    "static/media/projectImage2.png": "/myWebSite/static/media/projectImage2.4f916cac9dc12ed58cab.png",
+    "static/media/image6.jpg": "/myWebSite/static/media/image6.661387e0976d98ec16ef.jpg",
+    "static/media/image3.png": "/myWebSite/static/media/image3.ba733bcb0d9bf0519254.png",
+    "static/media/image2.png": "/myWebSite/static/media/image2.c8896c3ea3fdfbc7eb02.png",
+    "static/media/image7.png": "/myWebSite/static/media/image7.6a6ae00806ff2d8cfec3.png",
+    "static/media/image4.png": "/myWebSite/static/media/image4.f034c4159fafe309af23.png",
     "static/media/myPhoto.png": "/myWebSite/static/media/myPhoto.c292c4fdd60c20c16456.png",
+    "static/media/projectImage6.jpg": "/myWebSite/static/media/projectImage6.9be83e92d3a9e1af58ae.jpg",
+    "static/media/image1.png": "/myWebSite/static/media/image1.16926cd2ad4cd26390bb.png",
+    "static/media/projectImage8.png": "/myWebSite/static/media/projectImage8.cb96e17b557c400bc309.png",
+    "static/media/image13.png": "/myWebSite/static/media/image13.ba32df24cb0e0650f1aa.png",
+    "static/media/image14.jpg": "/myWebSite/static/media/image14.4d23d5bf27525620630d.jpg",
+    "static/media/image12.png": "/myWebSite/static/media/image12.5927db7ab621d58a8fc8.png",
+    "static/media/projectImage9.png": "/myWebSite/static/media/projectImage9.1a6d317670680fd61c00.png",
+    "static/media/projectImage1.png": "/myWebSite/static/media/projectImage1.91d231cdccc3a42a3296.png",
     "static/media/icon-close.png": "/myWebSite/static/media/icon-close.40ce614f93ea1b103a05.png",
+    "static/media/image9.png": "/myWebSite/static/media/image9.f37b2ffa78914e506d40.png",
+    "static/media/image10.jpg": "/myWebSite/static/media/image10.b85359d23d14c995b178.jpg",
     "index.html": "/myWebSite/index.html",
-    "main.8166d5c1.css.map": "/myWebSite/static/css/main.8166d5c1.css.map",
-    "main.78d1f463.js.map": "/myWebSite/static/js/main.78d1f463.js.map"
+    "main.3cf65de1.css.map": "/myWebSite/static/css/main.3cf65de1.css.map",
+    "main.61ad2910.js.map": "/myWebSite/static/js/main.61ad2910.js.map"
   },
   "entrypoints": [
-    "static/css/main.8166d5c1.css",
-    "static/js/main.78d1f463.js"
+    "static/css/main.3cf65de1.css",
+    "static/js/main.61ad2910.js"
   ]
 }
